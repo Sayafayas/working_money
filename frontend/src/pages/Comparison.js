@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import { getComparisonData } from '../api/investments';
+import { getComparisonData } from '../api/investments'; // Import the mock function
 
 const Comparison = () => {
     const [data, setData] = useState([]);
 
     useEffect(() => {
         const fetchData = async () => {
-            const result = await getComparisonData();
+            const result = await getComparisonData(); // Call the mock function
             setData(result);
         };
+
         fetchData();
     }, []);
 
