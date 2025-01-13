@@ -32,6 +32,10 @@ pip-wheel-metadata/
 # Logs and databases
 *.log
 *.sqlite3
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 
 # Unit test / coverage reports
 htmlcov/
@@ -50,3 +54,20 @@ coverage.xml
 
 # Environment variables
 .env
+
+# NodeJs
+node_modules/
+
+# System
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
